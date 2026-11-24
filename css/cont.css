@@ -32,10 +32,11 @@ nav{
 
 main{
     grid-area: ma;
-    background-color: cornflowerblue;
+    background-color: aquamarine;
     display: flex;
     justify-content: center;
 }
+
 
 .box1{
     height: 54px;
@@ -44,12 +45,14 @@ main{
     margin-top: 8%;
     text-align: center;
     padding-top: 30px;
+    border-radius: 60px;
 
 }
 
+
 section{
     grid-area: se;
-    background-color: darkgreen;
+    background-color: rgba(158, 35, 45, 1);
 }
 
 .boxar{
@@ -64,7 +67,7 @@ section{
     display: flex;
     width: 30%;
     height: 80%;
-    background-color: aqua;
+    background-color: aquamarine;
     justify-content: center;
 
 }
@@ -73,7 +76,7 @@ section{
     height: 35px;
     width: 55%;
     margin-top: 280px;
-    background-color: blueviolet;
+    background-color: bisque;
     text-align: center;
     padding-top: 12px;
 
@@ -82,7 +85,7 @@ section{
 
 aside{
     grid-area: as;
-    background-color: coral;
+    background-color: rgba(158, 35, 45, 1);
     display: flex;
     align-items: center;
 }
@@ -99,18 +102,19 @@ aside{
 .iboxbygg{
     height: 50%;
     width: 58%;
-    background-color: azure;
+    background-color: bisque;
     align-self: center;
     margin-left: 30%;
     position: absolute;
     text-align: center;
     padding-top: 60px;
     box-sizing: border-box;
+    border-radius: 20px;
 
 
 }
 
 footer{
     grid-area: ft;
-    background-color: rgb(168, 140, 30);
+    background-color: rgb(88, 19, 25);
 }

@@ -5,14 +5,14 @@
     height: 150vh;
     width: 100%;
     grid-template-columns: 20% 20% 20% 20% 20% ;
-    grid-template-rows: 15% 20% 10% 20% 20% 40%;
+    grid-template-rows: 15% 20% 10% 20% 20% 50% 20%;
     grid-template-areas: 
     'hd nav nav nav nav'
     'as as ma ma ma'
     'as as ma ma ma'
     'as as ma ma ma'
     'as as se se se'
-
+    'ct ct ct ct ct'
     'ft ft ft ft ft'
 
 }
@@ -29,7 +29,7 @@ nav{
 
 aside{
     grid-area: as;
-    background-color: coral;
+    background-color: rgba(158, 35, 45, 1);
 
 }
 
@@ -46,7 +46,7 @@ aside{
     position: absolute;
     height: 50%;
     width: 30%;
-    background-color:cadetblue;
+    background-color:rgb(221, 185, 130);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@ aside{
 .box2{
     height: 100%;
     width: 100%;
-    background-color: antiquewhite;
+    background-color: rgb(105, 23, 30);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ main{
 
 section{
     grid-area: se;
-    background-color: darkgreen;
+    background-color: rgba(158, 35, 45, 1);
     justify-content: center;
     align-items: center;
 }
@@ -82,6 +82,26 @@ section{
 
 .setext2{
     text-align: center;
+}
+
+content{
+    grid-area: ct;
+    background-color: rgba(158, 35, 45, 1);
+
+}
+
+.cirklar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cirkel{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 100%;
 }
 
 footer{
